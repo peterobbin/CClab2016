@@ -1,0 +1,32 @@
+.parent {
+	position: relative;
+	background-color: black;
+	width: 200px;
+	height: 200px;
+	top: 20vh;
+	left: 50vw;
+}
+
+#div1{
+	position: relative;
+	width: 100%;
+	height: 45%;
+	background-color: blue;
+	margin-bottom: 10px;
+}
+
+#div2{
+	position: relative;
+	float: left;
+	background-color: blue;
+	width: 48%;
+	height: 50%;
+}
+
+#div3{
+	position: relative;
+	float: right;
+	background-color: blue;
+	width: 48%;
+	height: 50%;
+}
