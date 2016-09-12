@@ -1,4 +1,4 @@
-# CClab2016 - 3382 - Section A
+# CClab2016 - 3382 - Section F
 ## Parsons MFADT
 ## Creativity and Computation Lecture/Lab
 ### Syllabus, Fall 2016 (subject to change)
