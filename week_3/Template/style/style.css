@@ -1,0 +1,120 @@
+
+.weatherWidget{
+	width: 360px;
+	height: 105px;
+	padding-right:10px;
+	position: absolute;
+	background-color: navy;
+}
+
+.weatherIcon{
+	height: 80px;
+	width: 85px;
+	margin: 10px 0px 0px 10px;
+	border: 2px solid #e2e2e2;
+}
+
+.weatherIcon img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	vertical-align: middle;
+
+}
+
+.text {
+	width: 260px;
+	height: 85px;
+	margin-top: -84px;
+	float:right;
+}
+
+.weather {
+	width: 145px;
+	height: 80px;
+	float: right;
+	font-size: 25px;
+	color: #e2e2e2;
+	font-family: Arial Black, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+		border: 2px solid #e2e2e2;
+
+}
+
+.temperature {
+	width: 105px;
+	height: 75px;
+	font-size: 40px;
+	padding-top: 5px;
+	float: left;
+	color: #e2e2e2;
+	font-family: Arial Black, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px solid #e2e2e2;
+
+	
+
+}
+
+.currentLocation{
+	margin-top: 10px;
+	width:105%;
+	padding: 5px;
+	float: left;
+	background-color: white;
+	
+}
+
+.currentCity{
+	width: 282px;
+	height: 24px;
+	font-size: 15px;
+	margin-left: -5px;
+	float: left;
+	font-family: Arial, sans-serif;
+	color: #e2e2e2;
+	background-color: navy;
+	border: none;
+	border-radius: 2px;
+	text-transform: capitalize;
+}
+
+.currentCity:focus{
+	outline: none;
+}
+
+.currentState{
+	height:27px;
+	float: left;
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	color: #e2e2e2;
+	background-color: navy;
+	border: none;
+	
+
+}
+
+.currentState:focus{
+	outline: none;
+}
+
+#submit{
+	height: 26px;
+	margin-right: 5px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #e2e2e2;
+	background-color: navy;
+	border: none;
+	border-radius: 2px;
+	
+}
+
+#submit:focus{
+	outline: none;
+}
