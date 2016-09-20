@@ -1,15 +1,17 @@
+//global variables
 var city = '';
 var state = '';
-var APIKey = 'f5004746ddb3c3d4';
-
-
+var APIKey = '';
 
 var loadWeather = function(jsonResponse){
+
 	console.log(jsonResponse);
-	if (jsonResponse.response.error){
+
+	//add an error catch before setting variables
+	if(jsonResponse.response.error){
 		alert(jsonResponse.response.error.description);
 		return;
-	}
+	};
 
 	//set variables to elements of your response object
 	var thisCity = jsonResponse.location.city;
@@ -18,56 +20,66 @@ var loadWeather = function(jsonResponse){
 	var weather = jsonResponse.current_observation.weather;
 	var icon = jsonResponse.current_observation.icon_url;
 
-	console.log("this is the city:" + thisCity);
-
-
+	console.log('this is your city' + thisCity);
+	//set text of HTML elements to your variables
 	$('.temperature').html(temp);
 	$('.weather').html(weather);
 	$('.weatherIcon').html('<img src="' + icon + '">');
 
+	//set value of city input to response city.
 	$('.currentCity').val(thisCity);
-}
+
+};
 
 var setLocation = function(){
-	city = $('.currentCity').val();
-	state = $('.currentState').val();
-	console.log("city is: " + city + "state is: " + state);
-	if (city == null || city == ''){
-		alert('hey why you are not entering anything');
+	//set the global variable 'city' to the value of .currentCity
+	city = $('.currentCity').val()
+
+	//set the global variable 'state' to the value of .currentState
+	state = $('.currentState').val()
+
+	//if the city is null or it equals '', alert the user and
+	//stop running the function.
+	if(city == null || city == ''){
+		alert('You need to list a city!');
 		return;
-	}
+	};
+
+	console.log('You want the weather for ' + city + ', ' + state);
+
+	//call getWeather() function now that city and state are set
 	getWeather();
-}
+};
 
 var getWeather = function(){
-	var myUrl = "http://api.wunderground.com/api/" + APIKey + "/geolookup/conditions/q/" + state + "/" + city +".json";
-	console.log(myUrl);
+// look for geolookup, so you get the location easily
+  var myUrl = "http://api.wunderground.com/api/" + APIKey +
+  "/geolookup/conditions/q/" + state + "/" + city + ".json"
 
+	//run the ajax call and load weather on success
 	$.ajax({
-		url:myUrl,
-		dataType: "jsonp",
-		success: function(response){
-			console.log("i got the json file parsed!");
+		url : myUrl,
+		dataType : "jsonp",
+		success : function(response) {
 			loadWeather(response);
 		}
 	});
-}
-
+};
 
 //init
 var init = function(){
-	console.log("Hello World!");
 
-	// this is important because you dont' want the page to refresh and lose your input
-	$("#submit").click(function(event) {
-		event.preventDefault();
+	console.log('What\'s the weather?');
+
+	// this is important because you don't want the page to refresh and lose your input
+	$('#submit').click(function(e){
+		e.preventDefault();
 		setLocation();
 	});
+};
 
-}
 
-// dom load listener
-$(document).ready(function() {
-	init();
+//document load listener
+$( document ).ready(function() {
+    init(); //call init() function when the page loads
 });
-
