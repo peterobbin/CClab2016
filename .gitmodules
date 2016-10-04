@@ -1,3 +1,12 @@
 [submodule "CCLab"]
 	path = CCLab
 	url = https://github.com/aimeehuang0/CCLab
+[submodule "cclab2016"]
+	path = cclab2016
+	url = https://github.com/gretaz0623/cclab2016
+[submodule "wwww"]
+	path = wwww
+	url = https://github.com/hayum/wwww
+[submodule "CClab-2016"]
+	path = CClab-2016
+	url = https://github.com/zhanj020/CClab-2016
