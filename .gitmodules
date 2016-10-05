@@ -13,3 +13,12 @@
 [submodule "XiaolingChen_CClab_2016"]
 	path = XiaolingChen_CClab_2016
 	url = https://github.com/SherlinC/XiaolingChen_CClab_2016
+[submodule "Aimee_CCLab_2016"]
+	path = Aimee_CCLab_2016
+	url = https://github.com/aimeehuang0/Aimee_CCLab_2016
+[submodule "Hanyu_Zhao_CClab_2016"]
+	path = Hanyu_Zhao_CClab_2016
+	url = https://github.com/gretaz0623/Hanyu_Zhao_CClab_2016
+[submodule "JialuZhang_CClab_2016"]
+	path = JialuZhang_CClab_2016
+	url = https://github.com/zhanj020/JialuZhang_CClab_2016
