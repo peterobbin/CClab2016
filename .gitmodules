@@ -13,3 +13,15 @@
 [submodule "Karl_CClab_2016"]
 	path = Karl_CClab_2016
 	url = git@github.com:wangs515/Karl_CClab_2016.git
+[submodule "Aaron_CCLab_2016"]
+	path = Aaron_CCLab_2016
+	url = https://github.com/leea666/Aaron_CCLab_2016
+[submodule "Noshin_CClab_2016"]
+	path = Noshin_CClab_2016
+	url = https://github.com/nnisa/Noshin_CClab_2016
+[submodule "SisiMa_CClab_2016"]
+	path = SisiMa_CClab_2016
+	url = https://github.com/sisima/SisiMa_CClab_2016
+[submodule "XiaolingChen_CClab_2016"]
+	path = XiaolingChen_CClab_2016
+	url = https://github.com/SherlinC/XiaolingChen_CClab_2016
