@@ -22,3 +22,9 @@
 [submodule "JialuZhang_CClab_2016"]
 	path = JialuZhang_CClab_2016
 	url = https://github.com/zhanj020/JialuZhang_CClab_2016
+[submodule "Shuang_CCLab_2016"]
+	path = Shuang_CCLab_2016
+	url = https://github.com/hayum/Shuang_CCLab_2016
+[submodule "Seung_ho_Jung_CClab2016"]
+	path = Seung_ho_Jung_CClab2016
+	url = https://github.com/jungseungho1/Seung_ho_Jung_CClab2016
