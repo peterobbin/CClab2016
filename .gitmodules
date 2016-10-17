@@ -28,3 +28,6 @@
 [submodule "Seung_ho_Jung_CClab2016"]
 	path = Seung_ho_Jung_CClab2016
 	url = https://github.com/jungseungho1/Seung_ho_Jung_CClab2016
+[submodule "FanyunPneg-CCLab_2016"]
+	path = FanyunPneg-CCLab_2016
+	url = https://github.com/Rebecca-Peng/FanyunPneg-CCLab_2016
