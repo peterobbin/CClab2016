@@ -31,3 +31,6 @@
 [submodule "FanyunPneg-CCLab_2016"]
 	path = FanyunPneg-CCLab_2016
 	url = https://github.com/Rebecca-Peng/FanyunPneg-CCLab_2016
+[submodule "Sydney-Adams-_CClabs"]
+	path = Sydney-Adams-_CClabs
+	url = https://github.com/adams012/Sydney-Adams-_CClabs
