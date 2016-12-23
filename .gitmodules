@@ -34,3 +34,6 @@
 [submodule "Sydney-Adams-_CClabs"]
 	path = Sydney-Adams-_CClabs
 	url = https://github.com/adams012/Sydney-Adams-_CClabs
+[submodule "Tushar_CClab_2016"]
+	path = Tushar_CClab_2016
+	url = https://github.com/Cerberus911/Tushar_CClab_2016
