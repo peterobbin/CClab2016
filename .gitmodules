@@ -1,6 +1,6 @@
 [submodule "Karl_CClab_2016"]
 	path = Karl_CClab_2016
-	url = git@github.com:wangs515/Karl_CClab_2016.git
+	url = https://github.com/wangs515/Karl_CClab_2016
 [submodule "Aaron_CCLab_2016"]
 	path = Aaron_CCLab_2016
 	url = https://github.com/leea666/Aaron_CCLab_2016
